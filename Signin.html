@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - ASM WEB1013</title>
+    <link href="/CSS/styleSignin.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="navbar" align="justify">
+        <a href="index.html">TRANG CHỦ</a>
+        <a href="product.html">SẢN PHẨM</a>
+        <a href="about.html">GIỚI THIỆU</a>
+        <a href="#3">GIỎ HÀNG</a>
+        <a href="contact.html">LIÊN HỆ</a>
+        <a href="Signin.html" style="float: right">Đăng nhập/ Đăng ký</a>
+    </div>
+    <header>
+        <h1>MINUIT BONNE MUIT CANDLE</h1>
+        <h1>BONJOUR</h1>
+    </header>
+    <form action="Signin.php"
+    method="post" enctype="multipart/form-data" align="center">
+    <div class="in">
+        <h2>SIGN IN</h2>
+    </div>
+    <div class="form-group">
+        <input name="id" type="text" placeholder="Your User Name" class="form-control" required/>
+    </div>
+    <div class="form-group">
+        <input name="pw" type="password" placeholder="Your Password" class="form-control" required/>
+    </div>
+    <div class="form-group">
+        <input name="re" type="checkbox" class="form-control"/>
+        <label>Remember me?</label>
+    </div>
+    <hr/>
+    <div class="signup">
+        <p>You don't have an account ? <a href="Signup.html"><strong>REGISTER</strong></a> now</p>
+    </div>
+    <div class="form-button">
+        <button type="submit">SIGN IN</button>
+    </div>
+    </form>
+</body>
+</html>

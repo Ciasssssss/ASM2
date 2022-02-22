@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - ASM WEB1013</title>
+    <link href="/CSS/styleContact.css" rel="stylesheet"/>
+</head>
+<body>
+    <script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+  }
+}
+    </script>
+        <div class ="header">
+            <h1>MINUIT BONNE MUIT CANDLE</h1>
+            <h4>Smell - Feel - Savour</h4>
+        </div>
+        <div id="navbar" align="justify">
+            <a href="index.html">TRANG CHỦ</a>
+            <a href="product.html">SẢN PHẨM</a>
+            <a href="about.html">GIỚI THIỆU</a>
+            <a href="#3">GIỎ HÀNG</a>
+            <a href="contact.html">LIÊN HỆ</a>
+            <a href="Signin.html" style="float: right">Đăng nhập/ Đăng ký</a>
+        </div>
+        <div class="row"> 
+            <div class="left">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1egtB0ZmYGOG2hr9YmOUAzEyqiUqi6Djd&ehbc=2E312F" 
+                    width="640" height="480">
+                    </iframe>
+                </div>
+            </div>
+            <div class="right">
+                <div class="contact">
+                    <h2>Liên hệ</h2>
+                    <p>Địa chỉ chúng tôi</p>
+                    <h4>33 Tân Chánh Hiệp 35, phường Tân Chánh Hiệp, Quận 12</h4>
+                    <br/>
+                    <p>Email chúng tôi</p>
+                    <h4>nghivhnps24355@ftp.edu.vn</h4>
+                    <h4>vohuynhngocnghi@gmail.com</h4>
+                    <br/>
+                    <p>Điện thoại</p>
+                    <h4>0934184957</h4>
+                    <div class="icons">
+                       <img src="/image/instagram-icon.png"/>
+                    </div>
+                    <br/>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <!--nôi dung giới thiệu-->
+                <div class="about">
+                    <h2>Về chúng tôi</h2>
+                    <p><i>Minuit Bonne Nuit Candle được lấy cảm hứng từ những hương hoa thiên nhiên.
+                    Nhận thấy được khứu giác tác động lớn đến tâm trạng hằng ngày của bạn.
+                    Chúng tôi đã mượn nến thơm để làm mới tâm trạng của bạn trong những không gian thân thuộc. Nâng cao giá trị đời sống tinh thần của bạn. The Lord Bless.
+                    </i></p>
+                <!--kết thúc giới thiệu-->
+                    <h2>Liên hệ chúng tôi</h2>
+                        <p><i>Phone: 0934184957</i></p>
+                        <p><i>Email: nghivhnps24355@fpt.edu.vn</i></p>
+                </div>
+            <div class="end">
+                <h4>Chân thành cảm ơn bạn đã tin dùng!</h4>
+                <hr>
+            <h3>Minuit Bonne Nuit Candle-©Website cung cấp nến thơm chất lượng</h3>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    background-image: url(/image/logo1-removebg-preview.png);
+    background-repeat: repeat;
+    background-size: 95px;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    background-color: #9b7979;
+}
+/* định dang cho thanh menu*/
+#navbar{
+    border-radius: 15px;
+    overflow:hidden;
+    background-color: #9b7979;
+    padding: 20px !important;
+    top: 0;
+    transition: 0.4s;
+    position: sticky;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+}
+#navbar a{ 
+    float: left;
+    color:#790e0e;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 5px;
+}
+#navbar a:hover{
+    padding: 15px;
+    background-color: brown;
+    color:azure;
+    text-decoration: underline rgb(156, 89, 89);
+    transform: scale(1.02);
+}
+header h1{
+    color:#EEEBDD;
+    margin: 15px;
+    text-align: center;
+    font-style:oblique;
+}
+.in{
+    background-color:rgba(173, 80, 92, 0.753) ;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+.in h2{
+    margin: 6px;
+    padding-top: 6px;
+}
+.in h5{
+    padding-bottom: 6px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+}
+/*định dạng form đăng nhập đăng kí*/
+form{
+    margin: 40px 420px;
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+    height: 80%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-group{
+    margin: 20px;
+}
+.form-control{
+    margin: 3px 0px;
+    outline: none;
+    border: 1px solid rgb(128, 128, 128);
+}
+.form-control:focus{
+    background-color: rgba(245, 218, 221, 0.822);
+    box-shadow: 0 0 3px #9C0F48 ;
+    border: 1px solid ;
+}
+.signin p{
+    text-align: center;
+    font-style: oblique;
+}
+.form-button{
+    text-align: center;
+}
+button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #9C0F48;
+    background-color: #DACC96;
+    box-shadow: inset 0 0 20px rgba(173, 80, 92, 0.514);
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: rgba(206, 48, 56, 0.671);
+    color: azure;
+    box-shadow: inset 0 0 20px brown;
+}

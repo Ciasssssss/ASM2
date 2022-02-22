@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    padding: 10px;
+    background: #F5E8C7;
+}
+.header{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #9E7777;
+    text-align: center;
+    background-image: url(/image/logo1-removebg-preview.png);
+    background-repeat: repeat;
+    background-size: 80px;
+    background-position: center;
+}
+.header h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+.header h4{
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    color: rgb(221, 213, 196);
+} 
+.banner>embed{
+    border-radius: 20px;
+}
+/* định dang cho thanh menu*/
+#navbar{
+    border-radius: 15px;
+    overflow:hidden;
+    background-color: #b3551e9f;
+    padding: 20px !important;
+    top: 0;
+    transition: 0.4s;
+    position: sticky;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#navbar a{ 
+    float: left;
+    color:#790e0e;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 5px;
+}
+#navbar a:hover{
+    padding: 15px;
+    background-color: brown;
+    color:azure;
+    text-decoration: underline rgb(156, 89, 89);
+}
+/*
+.topnav a:visited{
+    color: rgba(231, 154, 130, 0.726);
+    color:azure;
+}*/
+/* tạo 2 cột */
+.row{
+    display: inline-block;
+}
+/*dòng "BST MỚI NHẤT */
+.mid{
+    background-color: #eed6c4ea;
+    color: white;
+    margin: 0 20%;
+    border-radius: 10px;
+}
+.mid h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 3px;
+}
+/* cột trái*/
+.leftcolum{
+    width: 75%;
+    padding-right: 5px;
+    display: inline-block;
+}
+/* cột phải*/
+.rightcolum{
+   position: absolute;
+    right: 15px;
+   display:inline-block;
+    width: 25%;
+    padding-right: 5px;
+}
+/*hinh anh*/
+.image{
+    width: 190px;
+    height: 50px;
+}
+.image:hover{ 
+    box-shadow: 5px 5px rgba(94, 94, 94, 0.63);
+    transform: scale(1.05);
+}
+/* cột sp bên trái*/
+.prod{
+    background-color: #F0ECE3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #B3541E;
+    margin: 10px 18px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+.prod>.name h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #B3541E;
+}
+.prod>.image{
+    max-width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    position: absolute;
+    left: 75px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 25px;
+    color: orange;
+
+} 
+.prod>.icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    width: 45px;
+}
+.prod>.icons:hover{
+    transform: scale(1.5);
+}
+.prod>.new-icon{
+    width: 20%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+ /*clear float khác sau các cộc*/
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}/*cột tin bên phải*/
+.card{
+    border-radius: 20px;
+    background-color: #EED6C4;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.card h2{
+    text-align: center;
+}
+.card p{
+    text-align: justify;
+}
+.cards{
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+/* NỘI DUNG FOOTER*/
+footer{
+    clear: both;
+    line-height: 20px;
+    background-color: #9E7777;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}/*NỘI DUNG PHẦN GIỚI THIỆU*/
+.about{
+    text-align: center;
+    column-count: 2;
+    column-gap: 20px;
+    /*column-rule: 1px solid lightblue;*/
+    width: 100%;
+}
+.about h2{
+    color: black;
+    font-family: 'Times New Roman';
+}
+.about p{
+    color: aliceblue;
+    font-family: 'Times New Roman';
+}
+.end{
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+

@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí - ASM WEB1013</title>
+    <link href="/CSS/styleSignUp.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="navbar" align="justify">
+        <a href="index.html">TRANG CHỦ</a>
+        <a href="product.html">SẢN PHẨM</a>
+        <a href="about.html">GIỚI THIỆU</a>
+        <a href="#3">GIỎ HÀNG</a>
+        <a href="contact.html">LIÊN HỆ</a>
+        <a href="Signin.html" style="float: right">Đăng nhập/ Đăng ký</a>
+    </div>
+    <header>
+        <h1>MINUIT BONNE MUIT CANDLE</h1>
+        <h1>BONJOUR</h1>
+    </header>
+    <form action="Signup.php"
+    method="post" enctype="multipart/form-data" align="center">
+    <div class="in">
+        <h2>REGISTER</h2>
+        <h5>Creating an account is free</h5>
+    </div>
+    <div class="form-group">
+        <input name="id" type="text" placeholder="Your User Name" class="form-control" required/>
+    </div>
+    <div class="form-group">
+        <input name="mail" type="email" placeholder="Your E-mail" class="form-control" required/>
+    </div>
+    <div class="form-group">
+        <input name="phone" type="tel" pattern="[0-9]{3}[0-9]{7}" placeholder="123-456789" class="form-control" required/>
+    </div>
+    <div class="form-group">
+        <input name="pw" type="password" placeholder="Your Password" class="form-control" required/>
+    </div>
+    <div class="form-group">
+        <input name="cf-pw" type="password" placeholder="Confirm Your Password" class="form-control" required/>
+    </div>
+    <div class="form-group">
+        <input name="re" type="checkbox" class="form-control"/>
+        <label>I Agree To The Term & Conditions </label>
+    </div>
+    <hr/>
+    <div class="signin">
+        <p>You have an account ? <a href="Signin.html"><strong>SIGN IN</strong></a> now!</p>
+    </div>
+    <div class="form-button">
+        <button type="submit">REGISTER</button>
+    </div>
+    </form>
+</body>
+</html>
